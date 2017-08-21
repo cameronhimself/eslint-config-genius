@@ -3,7 +3,7 @@ function codeBlock(content, lang='javascript') {
 }
 
 function ruleHeader(name) {
-	return `### [\`${name}\`](https://eslint.org/docs/rules/${name})`;
+	return `## [\`${name}\`](https://eslint.org/docs/rules/${name})`;
 }
 
 function ruleDefinition(definition) {
