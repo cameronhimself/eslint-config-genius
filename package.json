@@ -1,0 +1,20 @@
+{
+  "name": "eslint-config-genius",
+  "version": "0.1.0",
+  "description": "An ESLint config for geniuses. But you can continue to be standard if you want.",
+  "main": "rules.js",
+  "scripts": {
+    "build": "babel-node build"
+  },
+  "author": {
+    "name": "J. Cameron McDonald",
+    "email": "cameronhimself@gmail.com"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.0",
+    "eslint": "^4.5.0",
+    "jsonfile": "^3.0.1"
+  }
+}
