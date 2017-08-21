@@ -18,8 +18,6 @@ This is a combination of best practices, styles that have objective benefits, an
 }
 ```
 
-## Rules
-
 ## [`camelcase`](https://eslint.org/docs/rules/camelcase)
 
 ```javascript

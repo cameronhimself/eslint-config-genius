@@ -44,7 +44,6 @@ const readme = [
 	'This is a combination of best practices, styles that have objective benefits, and my own (let\'s face it, correct) opinions. I try to provide my rationale for the more contentious decisions.',
 	'## Base config',
 	codeBlock(JSON.stringify(eslintBase, null, 2)),
-	'## Rules',
 ].concat(readmeRules);
 
 fs.writeFile('README.md', readme.join('\n\n'), err =>
