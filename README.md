@@ -20,7 +20,7 @@ This is a combination of best practices, styles that have objective benefits, an
 
 ## Rules
 
-### [`camelcase`](https://eslint.org/docs/rules/camelcase)
+## [`camelcase`](https://eslint.org/docs/rules/camelcase)
 
 ```javascript
 "error"
@@ -28,7 +28,7 @@ This is a combination of best practices, styles that have objective benefits, an
 
 Require `camelCase` for variables and object properties.
 
-### [`comma-dangle`](https://eslint.org/docs/rules/comma-dangle)
+## [`comma-dangle`](https://eslint.org/docs/rules/comma-dangle)
 
 ```javascript
 [
@@ -68,7 +68,7 @@ const data = {
 };
 ```
 
-### [`comma-spacing`](https://eslint.org/docs/rules/comma-spacing)
+## [`comma-spacing`](https://eslint.org/docs/rules/comma-spacing)
 
 ```javascript
 "error"
@@ -76,7 +76,7 @@ const data = {
 
 Space after commas, but not before.
 
-### [`comma-style`](https://eslint.org/docs/rules/comma-style)
+## [`comma-style`](https://eslint.org/docs/rules/comma-style)
 
 ```javascript
 "error"
@@ -84,7 +84,7 @@ Space after commas, but not before.
 
 Require a comma after and on the same line as an array element, object property, or variable declaration
 
-### [`curly`](https://eslint.org/docs/rules/curly)
+## [`curly`](https://eslint.org/docs/rules/curly)
 
 ```javascript
 "error"
@@ -116,7 +116,7 @@ if (foo) {
 alert(bar); // obviously not inside the if block.
 ```
 
-### [`eol-last`](https://eslint.org/docs/rules/eol-last)
+## [`eol-last`](https://eslint.org/docs/rules/eol-last)
 
 ```javascript
 "error"
@@ -124,7 +124,7 @@ alert(bar); // obviously not inside the if block.
 
 Require a newline at the end of files.
 
-### [`eqeqeq`](https://eslint.org/docs/rules/eqeqeq)
+## [`eqeqeq`](https://eslint.org/docs/rules/eqeqeq)
 
 ```javascript
 "error"
@@ -132,7 +132,7 @@ Require a newline at the end of files.
 
 Always require `===` and `!==`, even for literals on both sides and even when `null` is involved.
 
-### [`func-call-spacing`](https://eslint.org/docs/rules/func-call-spacing)
+## [`func-call-spacing`](https://eslint.org/docs/rules/func-call-spacing)
 
 ```javascript
 [
@@ -143,7 +143,7 @@ Always require `===` and `!==`, even for literals on both sides and even when `n
 
 Disallow whitespace between a function call and its parens.
 
-### [`no-mixed-spaces-and-tabs`](https://eslint.org/docs/rules/no-mixed-spaces-and-tabs)
+## [`no-mixed-spaces-and-tabs`](https://eslint.org/docs/rules/no-mixed-spaces-and-tabs)
 
 ```javascript
 [
@@ -184,7 +184,7 @@ const data = {
 };
 ```
 
-### [`no-trailing-spaces`](https://eslint.org/docs/rules/no-trailing-spaces)
+## [`no-trailing-spaces`](https://eslint.org/docs/rules/no-trailing-spaces)
 
 ```javascript
 "error"
@@ -192,7 +192,7 @@ const data = {
 
 Do not allow trailing whitespace, even on blank lines.
 
-### [`no-var`](https://eslint.org/docs/rules/no-var)
+## [`no-var`](https://eslint.org/docs/rules/no-var)
 
 ```javascript
 "error"
@@ -200,7 +200,7 @@ Do not allow trailing whitespace, even on blank lines.
 
 Always require `let` or `const` as opposed to `var`.
 
-### [`prefer-const`](https://eslint.org/docs/rules/prefer-const)
+## [`prefer-const`](https://eslint.org/docs/rules/prefer-const)
 
 ```javascript
 "error"
@@ -208,7 +208,7 @@ Always require `let` or `const` as opposed to `var`.
 
 Always prefer `const` as opposed to `let` when possible.
 
-### [`semi`](https://eslint.org/docs/rules/semi)
+## [`semi`](https://eslint.org/docs/rules/semi)
 
 ```javascript
 "error"
@@ -216,7 +216,7 @@ Always prefer `const` as opposed to `let` when possible.
 
 Always require semicolons.
 
-### [`space-before-blocks`](https://eslint.org/docs/rules/space-before-blocks)
+## [`space-before-blocks`](https://eslint.org/docs/rules/space-before-blocks)
 
 ```javascript
 "error"
@@ -254,7 +254,7 @@ class Foo {
 }
 ```
 
-### [`space-before-function-paren`](https://eslint.org/docs/rules/space-before-function-paren)
+## [`space-before-function-paren`](https://eslint.org/docs/rules/space-before-function-paren)
 
 ```javascript
 [
@@ -269,7 +269,7 @@ class Foo {
 
 Require a space after anonymous and arrow function parens and disallow for named function parens.
 
-### [`space-in-parens`](https://eslint.org/docs/rules/space-in-parens)
+## [`space-in-parens`](https://eslint.org/docs/rules/space-in-parens)
 
 ```javascript
 [
@@ -280,7 +280,7 @@ Require a space after anonymous and arrow function parens and disallow for named
 
 Disallow spaces padding the insides of parens.
 
-### [`space-unary-ops`](https://eslint.org/docs/rules/space-unary-ops)
+## [`space-unary-ops`](https://eslint.org/docs/rules/space-unary-ops)
 
 ```javascript
 [
