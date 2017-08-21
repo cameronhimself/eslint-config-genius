@@ -1,6 +1,10 @@
 {
   "name": "eslint-config-genius",
   "version": "0.1.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cameronhimself/eslint-config-genius.git"
+  },
   "description": "An ESLint config for geniuses. But you can continue to be standard if you want.",
   "main": "rules.js",
   "scripts": {
