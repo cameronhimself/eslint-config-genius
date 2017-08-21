@@ -1,13 +1,13 @@
 {
   "name": "eslint-config-genius",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "repository": {
     "type": "git",
     "url": "https://github.com/cameronhimself/eslint-config-genius.git"
   },
   "description": "An ESLint config for geniuses. But you can continue to be standard if you want.",
   "keywords": ["eslint", "eslint-config", "eslintconfig"],
-  "main": "rules.js",
+  "main": "index.js",
   "scripts": {
     "build": "babel-node build"
   },

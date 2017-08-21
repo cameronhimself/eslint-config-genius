@@ -49,9 +49,6 @@ const readme = [
 fs.writeFile('README.md', readme.join('\n\n'), err =>
 	err && console.error(err)
 );
-jsonfile.writeFile('rules.js', eslint, {spaces: 2}, err =>
-	err && console.error(err)
-);
 jsonfile.writeFile('.eslintrc', eslint, {spaces: 2}, err =>
 	err && console.error(err)
 );
