@@ -6,6 +6,7 @@
     "url": "https://github.com/cameronhimself/eslint-config-genius.git"
   },
   "description": "An ESLint config for geniuses. But you can continue to be standard if you want.",
+  "keywords": ["eslint", "eslint-config", "eslintconfig"],
   "main": "rules.js",
   "scripts": {
     "build": "babel-node build"
@@ -20,5 +21,8 @@
     "babel-preset-env": "^1.6.0",
     "eslint": "^4.5.0",
     "jsonfile": "^3.0.1"
+  },
+  "peerDependencies": {
+    "eslint": "^4.0.0"
   }
 }
